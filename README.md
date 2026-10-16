@@ -1,7 +1,7 @@
 # Summary
-psql -f init.sql
-nohup ./conn_chk_deamon.sh > /dev/null 2>&1 &
-sh max_conn_test.sh
+$psql -f init.sql
+$nohup ./conn_chk_deamon.sh > /dev/null 2>&1 &
+$sh max_conn_test.sh
 
 # Example
 
